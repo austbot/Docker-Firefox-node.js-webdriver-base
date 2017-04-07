@@ -36,4 +36,4 @@ RUN npm install
 RUN chmod +x main.sh
 
 # run it all!
-ENTRYPOINT ./main.sh
+RUN sh main.sh
